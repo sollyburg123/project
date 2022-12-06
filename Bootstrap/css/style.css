@@ -1,0 +1,61 @@
+/* Basic styles */
+body{
+    background-color: #D5D5D5;
+}
+h1 {
+    color: #9099A2;
+    font-weight: bold; 
+   
+}
+
+h2, h3, h4, h5, h6{
+    color: #6D7993; /* Accent */
+}
+
+a{
+    color:inherit;
+}
+
+a:hover{
+    color:#6D7993;
+}
+
+
+/* Homepage styles*/
+.cover{
+    height:300px;
+    margin-top:25%;
+    background-size:cover;
+    background-image: url('../images/swirl.jpg');
+}
+.front-nav-1{
+background-color:#64271B;
+}
+.front-nav-2{
+background-color:#354243;
+}
+.front-nav-3{
+background-color:#80598D;
+}
+div.cover .col-sm-2{
+height:200px;
+margin:50px 0px;
+}
+
+.front-logo h1{
+color: white;
+}
+div .col-sm-4{
+}
+img{
+width:200px;
+height:200px;
+}
+th{
+background-color: #96858F;
+}
+.carousel-inner > .item > img{
+    min-width: 100%;  
+    width:500px;
+    display: block;
+}
